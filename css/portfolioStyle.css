@@ -28,6 +28,7 @@ p{
 .background{
     border-top: 1px solid #9E9EA0;
     margin: 0px 40px 50px 40px;
+    
 
 }
 
@@ -46,8 +47,17 @@ iframe{
     margin: 0 auto;
 }
 
+.card-deck{
+    margin-top: 30px;
+}
+
+.navContent{
+    margin: 0 100px 0 100px;
+    height: auto;
+}
+
 .content{
-    margin-top: 50px;
+    margin: 50px 100px 0 100px;
 }
 
 /* .card-text{
