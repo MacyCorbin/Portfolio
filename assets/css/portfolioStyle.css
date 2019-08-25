@@ -76,12 +76,14 @@ body, html {
 
 
 
+
 /*-------Jumbotron-------*/
 .jumbotron {
     position: relative;
     margin-bottom: 0;
     padding: 0;
     width: 100vw;
+    height: 400px;
     overflow: hidden;
     background: transparent;
     -webkit-transition: all 800ms ease-in-out;
@@ -92,8 +94,8 @@ body, html {
     text-align: center;
 }
 .jumbotron .container {
-  padding-top: 10em;
-  padding-bottom: 12em;
+  padding-top: 7em;
+  padding-bottom: 7em;
   color: white;
 }
 .jumbotron .container{
@@ -107,7 +109,7 @@ body, html {
   background-size: cover;
   position: fixed;
   width: 100%;
-  height: 50px;
+  /* height: 50px; */
   top: 0;
   left: 0;
   z-index: -999;
@@ -115,8 +117,9 @@ body, html {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
 }
+
+
 /*-------Sections Formatting-------*/
 h1.title {
     display: block;
@@ -131,6 +134,16 @@ h1.title {
 
 .row {
     margin-bottom: 8em;
+}
+
+.section {
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    
+}
+.animated {
+    opacity: 1 !important;
 }
 /*-------About-------*/
 #about p {
@@ -149,4 +162,83 @@ h1.title {
 
 /*-------Screen Change Formatting-------*/
 
+@media (min-width: 992px){
+    .jumbotron-bg {
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
 
+    .jumbotron .container h1 {
+        font-size: 3rem;
+    }
+
+    #top-nav{
+        padding-top:25px;
+        padding-bottom:25px;
+        -webkit-transition:padding-top .3s,padding-bottom .3s;
+        -moz-transition:padding-top .3s,padding-bottom .3s;
+        transition:padding-top .3s,padding-bottom .3s;
+        border:none;
+        background-color:transparent;
+        background-color:transparent
+    }
+    
+    #top-nav .navbar-brand{
+        font-size:3em;
+        -webkit-transition:all .3s;
+        -moz-transition:all .3s;
+        transition:all .3s;
+        color:rgba(255,255,255,.7)
+    }
+    
+    #top-nav .navbar-brand:focus,#top-nav .navbar-brand:hover{
+        color:#fff
+    }
+
+    #top-nav .navbar-nav>li>a,#top-nav .navbar-nav>li>ak:focus{
+        color:rgba(255,255,255,.7)
+    }
+    
+    #top-nav .navbar-nav>li>a:focus:hover,#top-nav .navbar-nav>li>a:hover{
+        color:#fff
+    }
+    
+    #top-nav.navbar-shrink{
+        padding-top:0;
+		padding-bottom:0;
+        border-bottom:1px solid rgba(33,37,41,.1);
+        background-color:#fff
+    }
+
+    #top-nav.navbar-shrink .navbar-brand{
+        font-size: 2em;
+        color:#38C790
+    }
+
+    #top-nav.navbar-shrink .navbar-brand:focus,#top-nav.navbar-shrink .navbar-brand:hover{
+        color:#38C790
+    }
+
+    #top-nav.navbar-shrink .navbar-nav>li>a,#top-nav.navbar-shrink .navbar-nav>li>a:focus{
+        color:#212529
+    }
+
+    #top-nav.navbar-shrink .navbar-nav>li>a:focus:hover,#top-nav.navbar-shrink .navbar-nav>li>a:hover{
+        color:#38C790
+    }
+
+    #top-nav.navbar-shrink .navbar-nav>li.active>a{
+        background-color:transparent;
+    }
+
+    h1.title {
+        font-size: 50px;
+        margin-bottom: 44px;
+    }
+
+    #about p {
+        font-size: 20px;
+    }
+}

@@ -15,11 +15,13 @@
     <!-- Flavicon -->
     
     <!-- Link to Bootstrap -->
-    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   
     <!-- Link to CSS file -->
     <link rel="stylesheet" type="text/css" href="assets/css/portfolioStyle.css">
 
+    <!-- Link to Animation -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 </head>
 
 <body>
@@ -27,7 +29,7 @@
     <!-- Navbar -->
     
 
-    <nav id="top-nav" class="navbar navbar-inverse navbar-expand-lg navbar-fixed-top" role="navigation">
+    <nav id="top-nav" class="navbar navbar-inverse navbar-expand-lg fixed-top" role="navigation">
         <div class="container">
             
             <a class="navbar-brand" href="#intro">Macy Corbin</a>
@@ -35,13 +37,13 @@
                 Menu
             </button>
             <div id="navbar" class="navbar-collapse collapse">
-              <ul class="navbar-nav ml-auto">
-                    <li><a class="nav-link" href="index.html" >HOME</a></li>
-                    <li><a class="nav-link" href="#about" >ABOUT</a></li>
-                    <li><a class="nav-link" href="#skills" >SKILLS</a></li>
-                    <li><a class="nav-link" href="#portfolio" >PORTFOLIO</a></li>
-                    <li><a class="nav-link" href="#portfolio" >PROCESS</a></li>
-                    <li><a class="nav-link" href="#contact" >CONTACT</a></li>
+              <ul class="nav navbar-nav ml-auto">
+                    <li><a class="nav-link" class="scroll-trigger" href="index.html" >HOME</a></li>
+                    <li><a class="nav-link" class="scroll-trigger" href="#about" >ABOUT</a></li>
+                    <li><a class="nav-link"class="scroll-trigger" href="#skills" >SKILLS</a></li>
+                    <li><a class="nav-link"class="scroll-trigger" href="#portfolio" >PORTFOLIO</a></li>
+                    <li><a class="nav-link" class="scroll-trigger"href="#process" >PROCESS</a></li>
+                    <li><a class="nav-link"class="scroll-trigger" href="#contact" >CONTACT</a></li>
                 </ul>   
                 
             </div>
@@ -49,20 +51,20 @@
     </nav>
 
     <!-- Landing Section/Intro -->
-    <div id="intro">
-        <div class="jumbotron">
-            <div class="jumbotron-bg"></div>
+    <div id="intro" class="section" style="height:700px">
+        <div class="jumbotron" style="height:700px">
+            <div class="jumbotron-bg" style="height:700px"></div>
             <div class="container jumbotron-container hidden">
-                <h1 >Macy Corbin</h1>
-                <h3 >Full-Stack Developer</h3>
+                <h1 data-animate="zoomIn" >Macy Corbin</h1>
+                <h3 data-animate="zoomIn">Full-Stack Developer</h3>
             </div>
         </div>
     </div>
 
     <!-- About Section -->
-    <div id="about">
+    <div id="about" class="section">
         <div class="container">
-            <h1 class="title">About me</h1>
+            <h1 class="title" data-animate="zoomIn">About me</h1>
             <div class="row">
                 <div class="col-md-10 col-md-offset-1">	
                     <div>
@@ -74,33 +76,33 @@
     </div>
 
     <!-- Skills Section -->
-    <div id="skills">
+    <div id="skills" class="section">
         <div class="container">
-            <h1 class="title">Developer Skills</h1>
+            <h1 class="title" data-animate="zoomIn">Developer Skills</h1>
 
-            <h1 class="title">Graphic Skills</h1>
+            <h1 class="title" data-animate="zoomIn">Graphic Skills</h1>
 
         </div>
     </div>
 
     <!-- Projects Section -->
-    <div id="portfolio">
+    <div id="portfolio" class="section">
         <div class="container">
-            <h1 class="title">Portfolio</h1>
+            <h1 class="title" data-animate="zoomIn">Portfolio</h1>
         </div>
     </div>
 
     <!-- Process Section -->
-    <div id="process">
+    <div id="process" class="section">
         <div class="container">
-            <h1 class="title">Process</h1>
+            <h1 class="title" data-animate="zoomIn">Process</h1>
         </div>
     </div>
 
     <!-- Contact Section -->
-    <div id="contact">
+    <div id="contact" class="section">
         <div class="container">
-            <h1 class="title">Contact</h1>
+            <h1 class="title" data-animate="zoomIn">Contact</h1>
         </div>
     </div>
 </body>
