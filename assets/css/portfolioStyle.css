@@ -99,7 +99,7 @@ body, html {
   color: white;
 }
 .jumbotron .container{
-  margin-bottom: .5em;
+  margin-bottom: 1em;
   font-size: 2rem;
   text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.50);
 }
@@ -118,7 +118,10 @@ body, html {
     -o-background-size: cover;
     background-size: cover;
 }
-
+.arrowImg{
+    background-image: url("/assets/images/arrow.png");
+    width: 70px;
+}
 
 /*-------Sections Formatting-------*/
 h1.title {
@@ -138,7 +141,7 @@ h1.title {
 
 .section {
     position: relative;
-    padding-top: 20px;
+    padding-top: 50px;
     padding-bottom: 40px;
     
 }
