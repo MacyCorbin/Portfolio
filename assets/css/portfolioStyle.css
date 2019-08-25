@@ -189,8 +189,33 @@ a.btn:hover {
 
 /*-------Portfolio-------*/
 
-
+/*-------Process-------*/
+#process {
+    background-color: #49A0B5 ;
+    color: #fff;
+    text-align: center;
+}
 /*-------Contact-------*/
+#contact {
+    background-color: #2A3852 ;
+    color: #fff;
+    text-align: center;
+}
+
+#contact .col-sm-6{
+    text-decoration: none;
+    color: #49A0B5 ;
+}
+#contact a{
+    text-decoration: none;
+    color: #49A0B5 ;
+}
+#contact a:hover{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.1em;
+    
+}
 
 
 /*-------Screen Change Formatting-------*/
