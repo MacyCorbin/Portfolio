@@ -75,7 +75,6 @@ $(document).ready(function () {
         jsScroll();
     });
 
-
     parallaxScrolling();
     animations();
     $.waypoints('refresh');

@@ -74,7 +74,9 @@ body, html {
     background-color: #38C790;
 }
 
-
+li{
+    padding-left: 10px;
+}
 
 
 /*-------Jumbotron-------*/
@@ -148,13 +150,41 @@ h1.title {
 .animated {
     opacity: 1 !important;
 }
+
+a.btn {
+    background-color: #38C790;
+    color: #fff !important;
+}
+
+a.btn:hover {
+    color:#fff !important;
+    background-color: #38C790;
+}
 /*-------About-------*/
 #about p {
     text-align: center;
 }
 
 /*-------Skills-------*/
+#skills {
+    text-align: center;
+    background-color: #38C790;
+    color: white;
+}
 
+#skills h4{
+	margin-bottom: 40px;
+}
+
+.devicons:before {
+    font-size: 4em;
+    color: white;
+}
+
+.InDesign{
+    height: 4em;
+    margin-bottom: 3px;
+}
 
 
 /*-------Portfolio-------*/
@@ -165,7 +195,11 @@ h1.title {
 
 /*-------Screen Change Formatting-------*/
 
-@media (min-width: 992px){
+@media (min-width: 900px){
+    li{
+        padding-left: 10px;
+    }
+
     .jumbotron-bg {
         -webkit-background-size: cover;
         -moz-background-size: cover;
