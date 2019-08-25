@@ -1,0 +1,74 @@
+
+/*------Color Scheme------ */
+/* 
+#49A0B5  light blue
+#3B8699  medium blue
+#04899B
+#2A3852  dark blue
+#FDD44A  yellow
+#38C790  green
+#CE593F  red
+#9E9EA0  grey
+*/
+
+
+
+.title{
+    font-size: 50px;
+    font-family: "Tangerine";
+    font-weight: 500;
+    color: #38C790;
+    padding: 17px 30px 10px 30px;
+    margin-left: 10px;
+}
+
+
+
+
+
+.indexBackground{
+    background: url("../images/PortfolioBackground.png")no-repeat center fixed; 
+    background-size: cover;
+  
+}
+
+.jumbotron{
+    background-color: white;
+    overflow: hidden;
+    padding: 30px;
+    border-radius: 7px;
+    text-align: center;
+    width: 80%; 
+    position: absolute; 
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%,-50%);
+    /* margin: 25% 10%; */
+    opacity: .75;
+}
+
+
+
+.intro{
+    font-weight: 300;
+    color: 
+    #2A3852
+}
+
+
+.btn-Portfolio{
+    background-color: #49A0B5;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
+.btn-Portfolio:hover{
+    background-color: #04899B;
+    text-decoration: none;
+    color: white;
+
+}
