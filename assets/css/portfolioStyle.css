@@ -158,7 +158,7 @@ a.btn {
 
 a.btn:hover {
     color:#fff !important;
-    background-color: #38C790;
+    background-color: #32ac7d;
 }
 /*-------About-------*/
 #about p {
@@ -188,7 +188,31 @@ a.btn:hover {
 
 
 /*-------Portfolio-------*/
+#portfolio h2 {
+    margin-top: 0;
+}
 
+#portfolio a {
+    text-decoration: none;
+    transition: color .2s;
+    color: #212529;
+}
+
+#portfolio a:hover {
+    color:  #38C790;
+}
+
+#portfolio hr {
+    margin-bottom: 60px;
+}
+
+#portfolio hr:first-of-type{
+    border: none;
+}
+
+.img-responsive{
+    width: 100%;
+}
 /*-------Process-------*/
 #process {
     background-color: #49A0B5 ;
