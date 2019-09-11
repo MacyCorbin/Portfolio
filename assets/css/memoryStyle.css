@@ -1,0 +1,79 @@
+/*------Color Scheme Portfolio------ */
+/* 
+#49A0B5  light blue
+#3B8699  medium blue
+#04899B
+#2A3852  dark blue
+#FDD44A  yellow
+#38C790  green
+#CE593F  red
+#9E9EA0  grey
+*/
+
+/*------Color Scheme Memory------ */
+/* 
+#A33A38  red
+#2a3852  blue
+#9e9e9e  grey
+*/
+
+
+.btn-memory{
+    background-color: #A33A38;
+    color: white;
+    border: solid 2px #A33A38;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+.btn-memory:hover{
+    background-color: white;
+    color: #A33A38;
+    border: solid 2px #A33A38;
+    text-decoration: none;
+}
+
+.title{
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+    color: #A33A38;
+    padding: 17px 30px 10px 30px;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+.jumbotron{
+    background-color: #9e9e9e;
+    color: white;
+    overflow: hidden;
+    padding: 30px;
+    border-radius: 7px;
+    text-align: center;
+    width: 80%; 
+    position: absolute; 
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%,-50%);
+    /* margin: 25% 10%; */
+    
+}
+
+
+
+.intro{
+    font-weight: 300;
+}
+
+.card{
+    background-color:#9e9e9e;
+    border-color: #9e9e9e;
+}
