@@ -164,6 +164,10 @@ a.btn:hover {
     text-align: center;
 }
 
+#about{
+    margin-top: 200px;
+}
+
 /*-------Skills-------*/
 #skills {
     text-align: center;
@@ -218,6 +222,16 @@ a.btn:hover {
     color: #fff;
     text-align: center;
 }
+
+#process h2{
+    text-align: left;
+}
+
+#process p{
+    text-align: left;
+}
+
+
 /*-------Contact-------*/
 #contact {
     background-color: #2A3852 ;
