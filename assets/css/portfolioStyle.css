@@ -1,8 +1,8 @@
 /*------Color Scheme------ */
 /* 
 #49A0B5  light blue
-#3B8699  medium blue
-#04899B
+#04899B  light teal
+#015564  dark teal
 #2A3852  dark blue
 #FDD44A  yellow
 #38C790  green
@@ -161,7 +161,16 @@ a.btn:hover {
 }
 /*-------About-------*/
 #about p {
-    text-align: center;
+    text-align: left;
+}
+
+#about a {
+    text-decoration: none;
+    color: #49A0B5;
+}
+
+#about a:hover{
+    color: #015564 ;
 }
 
 #about{
